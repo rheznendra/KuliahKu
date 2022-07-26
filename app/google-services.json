@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "235401965326",
+    "project_id": "kelas-pbm",
+    "storage_bucket": "kelas-pbm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235401965326:android:d82aab46f746c74afab15f",
+        "android_client_info": {
+          "package_name": "com.rz.kuliahku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235401965326-ioj7laeiqqfn200vjltsh1t82kbb7053.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX6ZCxgynkO8T7LqsBIYoWhFWnhxG7cu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235401965326-ioj7laeiqqfn200vjltsh1t82kbb7053.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

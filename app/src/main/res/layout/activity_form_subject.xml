@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp">
+
+        <RelativeLayout
+            android:id="@+id/layoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:background="@color/red_900"
+            android:paddingVertical="16dp">
+
+            <ImageView
+                android:id="@+id/backBtn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="32dp"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Add Subject"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/layoutCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutTop"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="-32dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp">
+
+                <TextView
+                    android:id="@+id/subjectNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subject Name"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/subjectNameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/subjectNameLabel"
+                    android:inputType="textCapWords"
+                    android:maxLines="1"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/classCodeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/subjectNameInput"
+                    android:layout_marginTop="16dp"
+                    android:text="Class Code"
+                    android:textColor="@color/black" />
+
+                <com.skydoves.powerspinner.PowerSpinnerView
+                    android:id="@+id/classCodeInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/classCodeLabel"
+                    android:hint="Select"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    app:spinner_arrow_gravity="end"
+                    app:spinner_arrow_padding="8dp"
+                    app:spinner_arrow_tint="@color/black"
+                    app:spinner_divider_show="true"
+                    app:spinner_divider_size="0.4dp"
+                    app:spinner_item_array="@array/class_code"
+                    app:spinner_item_height="46dp"
+                    app:spinner_popup_background="#e0e0e0"
+                    app:spinner_popup_elevation="0dp" />
+
+                <TextView
+                    android:id="@+id/dayLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/classCodeInput"
+                    android:layout_marginTop="16dp"
+                    android:text="Day"
+                    android:textColor="@color/black" />
+
+                <com.skydoves.powerspinner.PowerSpinnerView
+                    android:id="@+id/dayInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dayLabel"
+                    android:hint="Select"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    app:spinner_arrow_gravity="end"
+                    app:spinner_arrow_padding="8dp"
+                    app:spinner_arrow_tint="@color/black"
+                    app:spinner_divider_show="true"
+                    app:spinner_divider_size="0.4dp"
+                    app:spinner_item_array="@array/days"
+                    app:spinner_item_height="46dp"
+                    app:spinner_popup_background="#e0e0e0"
+                    app:spinner_popup_elevation="0dp" />
+
+                <TextView
+                    android:id="@+id/timeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dayInput"
+                    android:layout_marginTop="16dp"
+                    android:text="Time"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/timeLabel">
+
+                    <EditText
+                        android:id="@+id/startTimeInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="18dp"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Start"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/endTimeInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="End"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_marginHorizontal="32dp"
+            android:layout_below="@id/layoutCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:backgroundTint="#cfd8dc"
+                android:text="Cancel"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/cancelBtn"
+                android:layout_weight="1"
+                android:backgroundTint="@color/red_900"
+                android:textColor="@color/white"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

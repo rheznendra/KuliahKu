@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/drawable/custom_cursor.xml" value="0.1315" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/drawable/ic_baseline_playlist_add_24.xml" value="0.127" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/drawable/layout_card_list.xml" value="0.1315" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/drawable/state_bottom_navigation.xml" value="0.127" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_about.xml" value="0.33" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_about_me.xml" value="0.25" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_about_me_edit.xml" value="0.33" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_add_subject.xml" value="0.33" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_author.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_form_subject.xml" value="0.25" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/fragment_about_me.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/fragment_subject_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/fragment_today_subjects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/lv_setting.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/rv_parent_subject.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/layout/rv_subject_item.xml" value="0.5" />
+        <entry key="..\:/Users/RZ/AndroidStudioProjects/KuliahKu/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RZ/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
