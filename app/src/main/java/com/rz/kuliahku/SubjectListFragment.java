@@ -73,7 +73,6 @@ public class SubjectListFragment extends Fragment {
         });
         rv_parent = view.findViewById(R.id.rv_parent);
 
-        rv_parent.setHasFixedSize(true);
         rv_parent.setLayoutManager(new LinearLayoutManager(this.getContext()));
 
         adapter = new ParentList(this.getContext(), parentList);

@@ -47,7 +47,6 @@ public class TodaySubjectsFragment extends Fragment {
         subjectList = new ArrayList<>();
 
         rv_subjects = view.findViewById(R.id.rv_subjects);
-        rv_subjects.setHasFixedSize(true);
         rv_subjects.setLayoutManager(new LinearLayoutManager(this.getContext()));
 
         adapter = new SubjectList(this.getContext(), subjectList, false);

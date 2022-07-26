@@ -37,7 +37,6 @@ public class ParentList extends RecyclerView.Adapter<ParentList.ParentSubjectVie
     public void onBindViewHolder(ParentSubjectViewHolder holder, int position) {
         holder.dayTitle.setText(parentList.get(position).getDay());
 
-        holder.rv_subject.setHasFixedSize(true);
         holder.rv_subject.setLayoutManager(new LinearLayoutManager(context));
         adapter = new SubjectList(context, parentList.get(position).getSubjectList(), true);
         holder.rv_subject.setAdapter(adapter);
